@@ -42,6 +42,13 @@ def up_git():
     time.sleep(3)
     os.system("git init")
     os.system("git add .")
+    os.system("git status")
+    print(
+
+                       'Aparentemente Tudo Ok , Caso Contrario Ctrl + C!'
+        
+    )
+    time.sleep(4)
     os.system('git commit -m "{}"'.format(commit))
     os.system("git branch -M main")
     os.system("git remote add origin {}".format(addressrep))
@@ -67,6 +74,6 @@ def header_banner():
                       '''
     )
 
-
-up_git()
+if __name__ == '__main__':
+    up_git()
 
