@@ -50,7 +50,7 @@ def header_banner():
                      | |_| | | |_| |_| | |_) |
                       \____|_|\__|\___/| .__/ 
                                        |_|    
-                            
+                Copyright (c) 2022 Juan Carlos Bindez
                       '''
     )
 
