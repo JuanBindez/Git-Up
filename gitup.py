@@ -7,11 +7,12 @@ Copyright (c) 2022 Juan Carlos Bindez
 
 import os
 import time
+import datetime
 
 
 def up_git():
     header_banner()
-    commit = str(input("Comente No Commit >"))
+    commit = str(datetime.datetime.now())
     addressrep = str(input("Insira a Url Do Repositório >"))
     os.system("clear")
     header_banner()
